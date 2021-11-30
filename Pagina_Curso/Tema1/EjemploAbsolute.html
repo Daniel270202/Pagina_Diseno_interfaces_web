@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="EstilosEjemplos/EstilosAbsolute.css">
+    <title>ABSOLUTE</title>
+</head>
+<body>
+    <h1>EJEMPLOS POSITION:ABSOLUTE</h1>
+    <p>Ponemos position:absolute a la caja dos y vemos como pierde sus propiedades</p>
+    <img src="resources/Code5.jpg">
+    <div class="box box-1">Caja1</div>
+    <div class="box box-2">Caja2</div>
+    <br>
+    <hr>
+    <p>Si movemos a box4, como no es hijo de ningún contenedor entonces su padre será el body o al html.</p>
+    <img src="resources/Code6.jpg">
+    <div class="ejemplo"> 
+        <div class="box box-3">Caja3</div>
+        <div class="box box-4">Caja4</div>
+    </div>
+    <hr>
+    <p>Vamos a mover la caja 6 a la esquina de la derecha abajo del contenedor div:</p>
+    <img src="resources/Code7.jpg">
+    <div class="ejemplo">
+        <div class="box box-5">Caja5</div>
+        <div class="box box-6">Caja6</div>
+    </div>
+    <hr>
+    <p>Box7 pierde su espacio reservado. Box8 sube y ocupa el espacio que antes ocupaba Box7. Box7 se coloca encima por el position:absolute</p>
+    <img src="resources/Code8.jpg">
+    <div class="box box-7">Caja7</div>
+    <div class="box box-8">Caja8</div>
+    <hr>
+    <p>Añadimos un contenedor que va a contener box9. No tiene por qué ser hijo directo del contenedor. Box10 podemos colocarla donde queramos.</p>
+    <img src="resources/Code9.jpg">
+    <div class="ejemplo2">
+        <div class="contenedor">
+            <div class="box box-9">Caja9</div>
+        </div>
+        <div class="box box-10">Caja10</div>
+    </div>
+    <hr>
+    <p>Si al contenedor le ponemos un margin left o right tomará el box11 tambn la propiedad</p>
+    <img src="resources/Code10.jpg">
+    <div class="ejemplo2">
+        <div class="contenedor2">
+            <div class="box box-11">Caja11</div>
+        </div>
+        <div class="box box-12">Caja12</div>
+    </div>
+    <hr>
+    <h3>Importante</h3>
+    <p>Al añadir position:absolute a un elemento de línea se genera automáticamente un contexto de bloque al que le podemos dar medidas y márgenes y que el navegador coloque ese elemento. NO es necesario aplicar el display:block...</p>
+</body>
+</html>
