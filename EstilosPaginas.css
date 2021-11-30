@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+nav{
+    background:rgb(156, 0, 0);
+    width: 100%;
+}
+.menu{
+    text-align: center;
+    margin: 0;
+}
+.menu li{
+    display: inline-block;
+}
+.menu a{
+    display: block;
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+}
+.menu a:hover{
+    background: rgb(223, 56, 56);
+}
+.Titulo{
+    background:  rgb(46, 49, 49);
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    padding: 90px;
+}
+.Teoria .col_izquierda{
+    width: 1250px;
+    display: inline-block;
+    margin-left: 30px;
+    vertical-align: top;
+    margin-bottom: 10px;
+}
+.Teoria .col_derecha{
+    width: 200px;
+    display: inline-block;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: rgb(223, 56, 56);
+    margin-top: 10px;
+    position: sticky;
+    top: 10px;
+    margin-left: 15px;
+    
+}
+.Teoria .col_derecha h2{
+    text-align: center;
+    color: rgb(223, 56, 56);
+}
+.Teoria .col_derecha a{
+    
+    display: inline-block;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: rgb(223, 56, 56);
+    background: rgb(156, 0, 0);
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+}
+.Teoria .col_derecha a:hover{
+    background: rgb(223, 56, 56);
+}
+.Teoria .col_derecha ul{
+    list-style-type: none;
+}
+.Teoria .col_izquierda h2{
+    color: white;
+    background: rgb(46, 49, 49);
+    display: inline-block;
+    padding: 20px;
+    border-radius: 15px;
+    border-color: rgb(223, 56, 56);
+    border-style: solid;
+}
+.Teoria .col_izquierda .contenido{
+    padding: 20px;
+    border-radius: 15px;
+    border-color: rgb(223, 56, 56);
+    border-style: solid;
+}
+.Teoria .col_izquierda h3{
+    color: white;
+    background: rgb(46, 49, 49);
+    display: inline-block;
+    padding: 10px;
+    border-radius: 15px;
+    border-color: rgb(223, 56, 56);
+    border-style: solid;
+}
+.Teoria .col_izquierda .contenido .imagen{
+    width: 500px;
+    height: 500x;
+    margin-left: 350px;
+}
+.footer{
+    background: rgb(156, 0, 0);
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+code {
+    font-family: Consolas,"courier new";
+    color: crimson;
+    background-color: #f1f1f1;
+    padding: 2px;
+    font-size: 105%;
+}
+#ejemplos{
+    color: rgb(156, 0, 0);
+    text-decoration: none;
+}
